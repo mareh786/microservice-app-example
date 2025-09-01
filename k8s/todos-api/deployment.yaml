@@ -27,8 +27,8 @@ spec:
         - name: ZIPKIN_URL
           value: http://zipkin:9411/api/v2/spans
           
-        image: todos-api
-        name: mareh786/todos-api
+        image: mareh786/todos-api
+        name: todos-api
         ports:
         - containerPort: 8082
         imagePullPolicy: Never
