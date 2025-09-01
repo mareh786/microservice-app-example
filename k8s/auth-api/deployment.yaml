@@ -23,7 +23,7 @@ spec:
         - name: ZIPKIN_URL
           value: http://zipkin:9411/api/v2/spans          
         image: auth-api
-        name: auth-api
+        name: mareh786/auth-api
         ports:
         - containerPort: 8081
         imagePullPolicy: Never

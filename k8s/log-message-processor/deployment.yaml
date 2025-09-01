@@ -24,6 +24,6 @@ spec:
           value: http://zipkin:9411/api/v1/spans
           
         image: log-message-processor
-        name: log-message-processor
+        name: mareh786/log-message-processor
         imagePullPolicy: Never
       restartPolicy: Always
